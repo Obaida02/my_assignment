@@ -4,14 +4,14 @@ box-sizing: border-box;
 
 }
 body{
-    background-color: #f1faee;
+    background-color: #f4f1de;
     margin: 0;
 }
 h1{
     text-align: center;
 }
 div{
-    background-color: #a8dadc;
+    background-color: #81b29a;
     border: 1px solid black;
     padding: 0px 0px 5px 5px;
     width: calc(98%/3);
@@ -22,13 +22,21 @@ div{
 }
 
 .p1{
+    font-size: 20px;
     color: white;
     margin-top: 0;
-    width: 70px;
+    width: 80px;
+    height: 28px;
     border: 1px solid black;
     text-align: center;
-    background-color: #457b9d;
+    background-color: #e07a5f;
     float: right;
+}
+.c2>.p1{
+    background-color: #3d405b;
+}
+.c3>.p1{
+    background-color: #e7b35e;
 }
 .p2{
     clear: right;
